@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E5A92C022437C9E00814BA7 /* bands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5A92C022437C9E00814BA7 /* bandLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bandLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5A92C322437C9E00814BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E5A92C522437C9E00814BA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E5A92C822437C9E00814BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		8E5A92C122437C9E00814BA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E5A92C022437C9E00814BA7 /* bands.app */,
+				8E5A92C022437C9E00814BA7 /* bandLyrics.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E5A92BF22437C9E00814BA7 /* bands */ = {
+		8E5A92BF22437C9E00814BA7 /* bandLyrics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E5A92D222437CA000814BA7 /* Build configuration list for PBXNativeTarget "bands" */;
+			buildConfigurationList = 8E5A92D222437CA000814BA7 /* Build configuration list for PBXNativeTarget "bandLyrics" */;
 			buildPhases = (
 				8E5A92BC22437C9E00814BA7 /* Sources */,
 				8E5A92BD22437C9E00814BA7 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = bands;
+			name = bandLyrics;
 			productName = whoCaresLyrics;
-			productReference = 8E5A92C022437C9E00814BA7 /* bands.app */;
+			productReference = 8E5A92C022437C9E00814BA7 /* bandLyrics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E5A92BB22437C9E00814BA7 /* Build configuration list for PBXProject "bands" */;
+			buildConfigurationList = 8E5A92BB22437C9E00814BA7 /* Build configuration list for PBXProject "bandLyrics" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E5A92BF22437C9E00814BA7 /* bands */,
+				8E5A92BF22437C9E00814BA7 /* bandLyrics */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E5A92BB22437C9E00814BA7 /* Build configuration list for PBXProject "bands" */ = {
+		8E5A92BB22437C9E00814BA7 /* Build configuration list for PBXProject "bandLyrics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E5A92D022437CA000814BA7 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E5A92D222437CA000814BA7 /* Build configuration list for PBXNativeTarget "bands" */ = {
+		8E5A92D222437CA000814BA7 /* Build configuration list for PBXNativeTarget "bandLyrics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E5A92D322437CA000814BA7 /* Debug */,

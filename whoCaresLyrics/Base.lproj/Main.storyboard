@@ -1006,13 +1006,13 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bands" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bandLyrics" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F3S-rA-sAz">
-                                <rect key="frame" x="67" y="285" width="298" height="147"/>
+                                <rect key="frame" x="20" y="295" width="374" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -1028,11 +1028,11 @@ Project source:
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="https://github.com/jasperlin1996">
+                                    <fragment content="https://github.com/jasperlin1996/bandLyrics">
                                         <attributes>
                                             <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <url key="NSLink" string="https://github.com/jasperlin1996"/>
+                                            <url key="NSLink" string="https://github.com/jasperlin1996/bandLyrics"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1244,7 +1244,7 @@ So I have tried all I can do
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LXm-Vc-3y1">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">太鮮紅的罪 總是渴望表現
+                                <string key="text">太鮮紅的罪 總是渴望表現
 像一朵盛開玫瑰 努力綻放就凋謝
 思念的氣味 止不住蔓延
 已是成熟而濃烈 釋放心扉 刀刃劃開瞬間
@@ -1265,7 +1265,7 @@ So I have tried all I can do
 是誰讓我褪去鮮紅外衣 留下所有純白全給你
 不再深藏任何秘密 都在這裡 你在哪裡
 是你讓我不顧一切尋覓 等待任何希望與契機
-現在我明白了到底 讓我沉溺 在情緒裡</mutableString>
+現在我明白了到底 讓我沉溺 在情緒裡</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1350,7 +1350,7 @@ So I have tried all I can do
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9GA-4U-GKj">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">如果連作夢都簡單
+                                <string key="text">如果連作夢都簡單
 又何嘗不在家裡睡上一整天
 捲曲在被單裡度過每一天
 別再提那心煩意亂
@@ -1382,7 +1382,7 @@ oh maybe you will know why it rains.
 如果你能到我的雨裡面
 oh maybe you will know why it rains.
 快離開我的世界
-至少在我夢醒之前</mutableString>
+至少在我夢醒之前</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1467,7 +1467,7 @@ oh maybe you will know why it rains.
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RlW-sB-PxC">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">是偶然 是意外
+                                <string key="text">是偶然 是意外
 還是刻意製造安排
 一切自然而然
 
@@ -1520,7 +1520,7 @@ Will you start and play,
 never say regret.
 
 按下播放鍵
-Let it play.</mutableString>
+Let it play.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1702,7 +1702,7 @@ Let it play.</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="29w-1Z-dvd">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">想起妳曾經說過的話
+                                <string key="text">想起妳曾經說過的話
 當時所有嚮往
 匆促的時間不曾停下
 不捨的過去啊 還來不及收藏
@@ -1721,7 +1721,7 @@ I've given up everything to reach what I'm dreaming
 Try to make it real to find a way of living
 Try to hide my fear to be your light
 And I thought I'll never get a reason of why I should keep running
-Tell me how I could escape from here</mutableString>
+Tell me how I could escape from here</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1806,7 +1806,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ltf-Vd-Frf">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">記憶中的那條街 轉眼過了好多年
+                                <string key="text">記憶中的那條街 轉眼過了好多年
 在心底偶然浮現 那些
 試圖傾訴想念的字眼
 
@@ -1836,7 +1836,7 @@ Tell me how I could escape from here</mutableString>
 希望你依然聽得見 曾許下的每個心願
 擁抱每個明天 不管未來多遠
 
-不管未來多遠</mutableString>
+不管未來多遠</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1921,7 +1921,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Se-Mx-ZVn">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">其實在那之後的日子 也不算壞
+                                <string key="text">其實在那之後的日子 也不算壞
 沈溺在幻覺裡消磨夜晚 只是該怎麼說 有些時候
 算了 沒什麼 
 一樣在天亮前走上頂樓 一樣多餘的藉口 迂迴的懦弱 一樣在恍惚中燃起了火
@@ -1947,7 +1947,7 @@ Tell me how I could escape from here</mutableString>
 但那些熄不掉的 免不了的
 明知道的
 
-戒不掉的不是癮</mutableString>
+戒不掉的不是癮</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2032,7 +2032,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BAF-xN-nfw">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">嘿 請告訴我
+                                <string key="text">嘿 請告訴我
 這麼久了你還記不記得我
 有沒有過要是沒有 如果那時候
 之類的念頭
@@ -2105,7 +2105,7 @@ Tell me how I could escape from here</mutableString>
 不要再一次機會
 我要昨天
 而我與你輕輕地擦肩
-就像不曾遇見</mutableString>
+就像不曾遇見</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2190,7 +2190,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="flw-WZ-5HA">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">我 深藏在 血液裡頭 的急躁
+                                <string key="text">我 深藏在 血液裡頭 的急躁
 像 兇猛的獸 機械的 奔跑著
 突然 發現 我停不下來 停不下來
 
@@ -2212,7 +2212,7 @@ Tell me how I could escape from here</mutableString>
 年復一年 訴說不盡的委屈啊
 能不能逃離出 逃出這無謂的制度啊
 
-逃出這無謂的制度啊</mutableString>
+逃出這無謂的制度啊</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2407,7 +2407,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JPz-eh-ftI">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">維吉尼雅的旅人啊 你為何憂傷
+                                <string key="text">維吉尼雅的旅人啊 你為何憂傷
 是不是哪裏有個他 把你給遺忘
 維吉尼雅的旅人啊 你為何流浪
 朝思暮想的那個他 不會回來啦
@@ -2441,7 +2441,7 @@ Tell me how I could escape from here</mutableString>
 或許 你根本沒那麼愛他
 豔紅之中 安靜的被遺忘
 
-把所有過去都遺忘</mutableString>
+把所有過去都遺忘</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2526,7 +2526,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y6u-18-xu9">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">哦主啊 請赦免我的罪
+                                <string key="text">哦主啊 請赦免我的罪
 讓我忘記自己是誰 忘記謊言和是非
 哦主啊 請赦免我的罪
 讓我忘記自己是誰 忘記罪惡和眼淚
@@ -2581,7 +2581,7 @@ Tell me how I could escape from here</mutableString>
 無法忘記自己是誰 習慣謊言和是非
 
 哦主啊 請牢記我的罪
-無法忘記自己是誰 擁抱罪惡和眼淚</mutableString>
+無法忘記自己是誰 擁抱罪惡和眼淚</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2867,7 +2867,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="z2m-Hm-dIh">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">驕傲的活著 向晚的天空裡飛
+                                <string key="text">驕傲的活著 向晚的天空裡飛
 身體還殘留著 土壤氣味
 
 高樓天際線 尖銳的割開夕陽的窗簾
@@ -2922,7 +2922,7 @@ Tell me how I could escape from here</mutableString>
 能飛多遠 就飛更遠一點
 去找回綠色的夏天
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3007,7 +3007,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="P7L-SL-k4y">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">不是因為天氣晴朗才愛你
+                                <string key="text">不是因為天氣晴朗才愛你
 不是因為看見星星才想你
 不是因為剛好沒有別的事
 才一直一直一直
@@ -3041,7 +3041,7 @@ Tell me how I could escape from here</mutableString>
 
 牽著你走過
 大雨盛開水花的路口
-也是我一樣喜歡的夢</mutableString>
+也是我一樣喜歡的夢</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3126,7 +3126,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="brP-Q4-QcF">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">沒有行李 沒有目的
+                                <string key="text">沒有行李 沒有目的
 一個人旅行
 
 在無邊黑暗裡 直到耗盡勇氣
@@ -3168,7 +3168,7 @@ Tell me how I could escape from here</mutableString>
 你一如往常發著光 而我就這樣
 安靜地被遺忘
 滿足地被遺忘
-幸福的被遺忘</mutableString>
+幸福的被遺忘</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3253,7 +3253,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nUX-Ht-MEg">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">這不是你想像的 對吧
+                                <string key="text">這不是你想像的 對吧
 雖然早有準備 卻還是流淚
 這不是我想要的 說什麼無所謂
 還不是讓自己好過一點
@@ -3291,7 +3291,7 @@ Tell me how I could escape from here</mutableString>
 哪怕前方有阻擋 也要照亮
 
 煙花 你不要落下
-煙花 你不要忘了啊</mutableString>
+煙花 你不要忘了啊</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3376,7 +3376,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mYW-9p-HA7">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">砰的一聲巨響 
+                                <string key="text">砰的一聲巨響 
 我又驚醒在這紛亂的沙場
 這是第幾個紛紛暮雪的夜晚
 我拾起代代相傳寶刀 
@@ -3412,7 +3412,7 @@ Tell me how I could escape from here</mutableString>
 自古紅顏 多惆悵 
 只為某君笑
 莫怪吾將 無情走 
-只怪愛錯郎</mutableString>
+只怪愛錯郎</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3497,7 +3497,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1VM-Cf-eU0">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">而我還是一個人 
+                                <string key="text">而我還是一個人 
 不知覺的度過寧靜的夜
 是哪裡吹來的風 
 撩動了我塵封已久的心弦
@@ -3527,7 +3527,7 @@ Tell me how I could escape from here</mutableString>
 而我練習了孤單 練習一個人
 習慣了孤單 你又出現了
 是感情太氾濫 才讓人遍體鱗傷呢
-碎了滿地的回憶 刺傷了我寂寞的心</mutableString>
+碎了滿地的回憶 刺傷了我寂寞的心</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3612,7 +3612,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fIQ-Wp-4eG">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">關了燈 
+                                <string key="text">關了燈 
 他又想起誰？ 
 從不說再見
 怕找不回笑臉
@@ -3659,7 +3659,7 @@ Tell me how I could escape from here</mutableString>
 
 獨留在世的戀人啊
 野性未馴的動物啊
-還咬著沾血的憂傷</mutableString>
+還咬著沾血的憂傷</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3744,7 +3744,7 @@ Tell me how I could escape from here</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NsJ-tP-w5m">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">Life is running out of control
+                                <string key="text">Life is running out of control
 我在雨中
 找尋時間的出口
 會不會是一種寬容
@@ -3796,7 +3796,7 @@ Till the day I can’t feel my pain
 
 Since we’ve fallen from the sky
 Keep the faith
-Till the day we take one last breath</mutableString>
+Till the day we take one last breath</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3881,7 +3881,7 @@ Till the day we take one last breath</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ggj-Ub-OT4">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">為了誰 彈著月光的詩篇
+                                <string key="text">為了誰 彈著月光的詩篇
 不禁抬起頭仰望那星夜
 沒有誰 也不問什麼季節
 只看那熾熱而冰冷的美
@@ -3931,7 +3931,7 @@ Time to fly away
 飛越一切 直到了界線
 是否仍願
 
-還是會吧</mutableString>
+還是會吧</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4016,7 +4016,7 @@ Time to fly away
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jvq-H6-rtB">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">漸漸 遮蔽了耳朵
+                                <string key="text">漸漸 遮蔽了耳朵
 視線 像回到了最初
 
 曾經你是一道徬徨孤獨的河
@@ -4058,7 +4058,7 @@ Time to fly away
 那漫漫長路終有結束時刻 
 而你我別離如雨
 散落滿地的寂寞 
-是怎樣的輪廓</mutableString>
+是怎樣的輪廓</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4143,7 +4143,7 @@ Time to fly away
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sVQ-ci-EZj">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">什麼也不必說
+                                <string key="text">什麼也不必說
 眼神交會的時候
 
 時間 停止了
@@ -4195,7 +4195,7 @@ It’ll take us high
 沒什麼 真的沒什麼
 絕不是出了差錯
 這一刻感覺整個宇宙
-不分你我</mutableString>
+不分你我</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4280,7 +4280,7 @@ It’ll take us high
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kxa-WK-i2y">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">就在忘記以後 在想起之前 
+                                <string key="text">就在忘記以後 在想起之前 
 放下這一切走吧 
 就在日落以後 雙眼已閉上 
 獨自沉淪夜黑無光 
@@ -4316,7 +4316,7 @@ It’ll take us high
 孤獨成了永恆
 "This is my last hope" 
 無聲浮現
-光芒綻放的瞬間 那是靈魂透徹</mutableString>
+光芒綻放的瞬間 那是靈魂透徹</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4401,7 +4401,7 @@ It’ll take us high
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gky-aQ-ijK">
                                 <rect key="frame" x="20" y="342" width="374" height="333"/>
                                 <color key="backgroundColor" red="0.99418604649999998" green="0.98837209299999995" blue="1" alpha="0.6198833627" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">有些忘了
+                                <string key="text">有些忘了
 為何堅強為何脆弱、麻木
 有些少了
 不能確定是否 繼續在乎
@@ -4448,7 +4448,7 @@ Let go
 散落何處
 Let go
 昨日的記號
-忘了為何堅強為何脆弱</mutableString>
+忘了為何堅強為何脆弱</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
